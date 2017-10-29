@@ -127,3 +127,14 @@ body {
     color: white;
 }
 
+@media only screen and (max-width: 900px) {
+  .container_card {
+    flex-direction: column
+  }
+  .navbar {
+    background: #FFF
+  }
+  .inline_dat {
+    flex-direction: column
+  }
+}
