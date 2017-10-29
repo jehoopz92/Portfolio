@@ -1,0 +1,129 @@
+body {
+    margin: 0 !important;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#logo {
+    border-radius: 5%;
+    border: solid 5px black;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Pacifico', cursive;
+    width: 65px;
+    height: 65px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.add-shadow {
+    -webkit-box-shadow: 0px 15px 108px -19px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 15px 108px -19px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 15px 108px -19px rgba(0, 0, 0, 0.38)
+}
+
+.nav-link {
+    margin-left: 35px;
+    font-family: cursive;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+
+.navbar{
+    background-color: #b3b5b7;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    
+}
+.navbar.scrolled {
+    background: rgb(68, 68, 68); /* IE */
+    background: rgba(0, 0, 0, 0.78); /* NON-IE */
+}
+.navbar-toggler{
+    background-color: white;
+    border: black dotted 4px;
+}
+
+
+
+
+.head_bar {
+   width: 50%;
+  border: 2px solid white
+}
+
+
+
+.section_1 {
+    height: 80vh
+}
+
+.section_1bg {
+    background-image: url("../Resources/road.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 1.5%;
+    height: 80vh
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(54, 95, 160, 0.5)
+}
+
+.text-md-center {
+    text-align: center;
+    width: 100%;
+    height: 100%
+}
+
+.text-md-center span {
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff
+}
+
+.blockquote-footer{
+    color: white;
+}
+
+.section_2{
+    background-color: #666f7f;
+    margin: 1.5%;
+    position: relative;
+    height: auto;
+    padding-bottom: 50px;
+    
+}
+
+.me {
+     border-radius: 50%;
+  border: dotted 5px white;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px
+  
+}
+.section_2 h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="alternate" href="js/main.js">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light sticky-top navbar-expand-lg nav-padding add-shadow" id="home">
+        <a class="navbar-brand nav-padding" href="#">
+            <div id="logo" alt="Logo">jke</div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse justify-content-end nav-padding" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="section_1">
+        <div class="section_1bg">
+            <div class="overlay text-center">
+                <div class="text-md-center">
+                    <span><h1>Lets see where this road goes......</h1><hr class="head_bar"><a href="https://codepen.io/jehoopz92/"><button type="button" style="color: white; border: solid 2px white;"class="btn btn-outline-primary btn-lg">Click Me</button><footer class="blockquote-footer">Click here to see more of my work!</footer></a></span>
+                </div>
+            </div>
+        </div>
+    </section><br>
+    <section class="section_2" id="aboutme">
+        <h1>About Me</h1><br>
+        <div class="container">
+            <img class="me" src="Resources/me.jpg" align="right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque modi beatae nulla sequi voluptates quidem cum nisi, numquam rerum vero quasi, voluptatum ex eaque quod dolores. Error autem debitis facilis eaque sapiente recusandae, rem eligendi nostrum sunt iure nam harum aut mollitia deleniti vero necessitatibus expedita. Modi error obcaecati, fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, ad architecto officiis dolor, unde ab saepe temporibus sapiente velit voluptate, omnis nam? Suscipit cumque animi itaque consequatur. Tempore assumenda, dicta voluptatibus esse obcaecati eum recusandae cupiditate voluptates, explicabo illo hic sequi aliquam repellendus totam quae optio quaerat quasi! Nesciunt beatae corporis earum facilis reiciendis unde vitae dolore assumenda necessitatibus qui molestias possimus commodi facere, deleniti recusandae ipsa numquam aliquam veritatis, sapiente. Ducimus delectus accusamus magni hic harum pariatur, rem quasi. Maiores a debitis sed labore, architecto molestiae ut temporibus veniam explicabo vero, non cupiditate, omnis autem incidunt saepe suscipit ratione.</p>
+
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script>
+        function checkScroll() {
+            var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+            if ($(window).scrollTop() > startY) {
+                $('.navbar').addClass("scrolled");
+            } else {
+                $('.navbar').removeClass("scrolled");
+            }
+        }
+
+        if ($('.navbar').length > 0) {
+            $(window).on("scroll load resize", function() {
+                checkScroll();
+            });
+        }
+
+    </script>
+</body>
+
+</html>
