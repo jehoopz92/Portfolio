@@ -128,7 +128,13 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-    .section_2{
-        font-size: 100px;
-    }
+  .container_card {
+    flex-direction: column
+  }
+  .navbar {
+    background: #FFF
+  }
+  .inline_dat {
+    flex-direction: column
+  }
 }
