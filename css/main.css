@@ -34,34 +34,39 @@ body {
     font-family: cursive;
     font-family: sans-serif;
     color: white;
-    
+
 }
 
 
-.navbar{
+.navbar {
     background-color: #b3b5b7;
     -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
     -o-transition: all 0.6s ease-out;
     -ms-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
-    
+
 }
+
 .navbar.scrolled {
-    background: rgb(68, 68, 68); /* IE */
-    background: rgba(0, 0, 0, 0.78); /* NON-IE */
+    background: rgb(68, 68, 68);
+    /* IE */
+    background: rgba(54, 95, 160, 0.5);
+    /* NON-IE */
 }
-.navbar-toggler{
-    background-color: white;
+
+.navbar-toggler {
     border: black dotted 4px;
 }
 
 
 
 
+
+
 .head_bar {
-   width: 50%;
-  border: 2px solid white
+    width: 50%;
+    border: 2px solid white
 }
 
 
@@ -98,43 +103,33 @@ body {
     color: #fff
 }
 
-.blockquote-footer{
+.blockquote-footer {
     color: white;
 }
 
-.section_2{
+.section_2 {
     background-color: #666f7f;
     margin: 1.5%;
     position: relative;
     height: auto;
     padding-bottom: 50px;
-    
+
 }
 
 .me {
-     border-radius: 50%;
-  border: dotted 5px white;
-  width: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px
-  
+    border-radius: 50%;
+    border: dotted 5px white;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px
 }
-.section_2 h1{
+
+.section_2 h1 {
     text-align: center;
     padding: 10px;
     color: white;
 }
 
 @media only screen and (max-width: 900px) {
-  .container_card {
-    flex-direction: column
-  }
-  .navbar {
-    background: #FFF
-  }
-  .inline_dat {
-    flex-direction: column
-  }
-}
