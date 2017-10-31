@@ -59,6 +59,14 @@ body {
     border: black dotted 4px;
 }
 
+i {
+    color: white;
+}
+
+.blockquote-footer{
+    margin-top: 10px;
+}
+
 
 
 
@@ -131,5 +139,76 @@ body {
     padding: 10px;
     color: white;
 }
+.section_2 p{
+    color: white;
+}
 
-@media only screen and (max-width: 900px) {
+.section_3bg {
+    background-image: url("../Resources/tech.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 1.5%;
+    height: 80vh
+}
+
+.section_3 p {
+    padding-bottom: 9%;
+}
+
+footer {
+    color: #fff;
+    background-color: #666f7f ;
+    text-align: center;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 1.5%;
+    padding: 30px;
+    height: auto;
+    width: auto;
+}
+
+
+
+.col-sm-5 ul li{
+    display: inline;
+    
+}
+
+.col-sm-5{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    padding-top: 40px;
+}
+
+.bottom_footer{
+    text-align: center;
+    background-color: #b3b5b7; 
+    padding: 30px;
+}
+
+
+
+
+
+.button {
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 48px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.button:hover {
+    border: solid 2px #fff;
+    color: #722872;
+    background: black;
+}
